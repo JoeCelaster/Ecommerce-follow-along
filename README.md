@@ -124,6 +124,6 @@ This milestone focused on implementing a secure user login endpoint. Key achieve
 * **User Authentication:** Successfully implemented user authentication based on validated credentials.  This allows the system to identify and authorize users.
 * **Improved Security:**  Enhanced overall application security by implementing secure password handling practices.
 
-MileStone-8
+# MileStone-8
 
 in milestone-8, We have done a Static home page which will renden the products with the images and the price and with their descriptions. And we also ensured the routing.
