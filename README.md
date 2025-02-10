@@ -125,6 +125,7 @@ This milestone focused on implementing a secure user login endpoint. Key achieve
 * **User Authentication:** Successfully implemented user authentication based on validated credentials.  This allows the system to identify and authorize users.
 * **Improved Security:**  Enhanced overall application security by implementing secure password handling practices.
 
+
 ## MileStone-8
 
 in milestone-8, We have done a Static home page which will renden the products with the images and the price and with their descriptions. And we also ensured the routing.
@@ -146,6 +147,7 @@ Cleans up object URLs to prevent memory leaks
 Uses Tailwind CSS for styling
 Displays an alert upon successful submission
 
+
 ## Milestone : Updated models/product.js controller/product.js Createproductjs
 
 # Controller/Product.js:
@@ -164,3 +166,4 @@ State Management: Uses useState to manage the form data for name, description, c
 File Handling: Allows users to upload multiple images, which are previewed before submission. The images are added to the form data using FormData.
 Form Submission: When the form is submitted, the data is sent to the backend using axios. If the request is successful, a success message is displayed, and the form is reset. If there's an error, an alert is shown.
 Category Options: Provides a set of predefined categories for the product (Electronics, Fashion, Books, and Home Appliances).
+
