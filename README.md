@@ -102,6 +102,7 @@ Through mentor-guided sessions, you will learn to develop both front-end and bac
 - Ensure the project is production-ready with all dependencies and configurations finalized.
 
 ### Milestone 5: Creating the Signup Page
+
 #### In this milestone, we focused on developing the signup page to enable users to create an account within the application. Key achievements include: Signup Page Implementation: Developed the Signup.jsx component with a user-friendly interface for account registration. Included form fields for user details such as name, email, and password. Form Validation: Added client-side validation logic to ensure proper input formatting and error messages for invalid entries. Integration with Routing: Configured navigation to and from the signup page using React Router for seamless user flow. Styling: Enhanced the design of the signup page to align with the application's overall styling for a consistent user experience. Code Organization: Refactored the code into reusable components where possible to promote cleaner and more maintainable code. This milestone enhances the user experience by allowing new users to register, paving the way for further integration with back-end user authentication systems.
 
 ## Milestone 6: What Was Achieved
@@ -115,7 +116,7 @@ In this milestone, we completed the following:
 - Improved UI/UX by refining product pages and checkout flows.
 - Fixed bugs from previous milestones and improved error handling.
 
-# Milestone 7: User Login
+## Milestone 7: User Login
 
 This milestone focused on implementing a secure user login endpoint. Key achievements include:
 
@@ -124,6 +125,23 @@ This milestone focused on implementing a secure user login endpoint. Key achieve
 * **User Authentication:** Successfully implemented user authentication based on validated credentials.  This allows the system to identify and authorize users.
 * **Improved Security:**  Enhanced overall application security by implementing secure password handling practices.
 
-MileStone-8
+## MileStone-8
 
 in milestone-8, We have done a Static home page which will renden the products with the images and the price and with their descriptions. And we also ensured the routing.
+
+
+## MileStone-9 : CreateProduct Component
+
+
+# Overview
+
+CreateProduct is a React component that allows users to create a product by filling out a form with details such as name, description, category, price, stock, and images. It provides real-time image previews and validates required fields before submission.
+
+# Features
+
+User-friendly form for creating a product
+Supports image uploads with previews
+Dynamically updates form state using React useState
+Cleans up object URLs to prevent memory leaks
+Uses Tailwind CSS for styling
+Displays an alert upon successful submission
