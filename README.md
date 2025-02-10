@@ -148,4 +148,22 @@ Uses Tailwind CSS for styling
 Displays an alert upon successful submission
 
 
+## Milestone : Updated models/product.js controller/product.js Createproductjs
+
+# Controller/Product.js:
+
+This Express.js route handles the creation of a new product. It validates the product data, checks if the user exists in the database, and ensures that at least one image is uploaded. If validation passes, the product is saved to the database and a success message is returned.
+
+# model/Product.js
+
+This code defines a Mongoose schema for a "Product" model in MongoDB. It specifies fields such as name, description, category, tags, price, stock, email, and images, with validation rules to ensure that required data is provided. Additionally, it includes automatic timestamping for creation and modification times. The schema is then used to create and export the Product model.
+
+# src/Creatproduct.js
+
+The CreateProduct component is a form for creating a new product. Here's a quick breakdown of its key features:
+
+State Management: Uses useState to manage the form data for name, description, category, tags, price, stock, and email, along with image handling (images and previewImages).
+File Handling: Allows users to upload multiple images, which are previewed before submission. The images are added to the form data using FormData.
+Form Submission: When the form is submitted, the data is sent to the backend using axios. If the request is successful, a success message is displayed, and the form is reset. If there's an error, an alert is shown.
+Category Options: Provides a set of predefined categories for the product (Electronics, Fashion, Books, and Home Appliances).
 
