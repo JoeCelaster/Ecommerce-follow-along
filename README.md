@@ -167,3 +167,10 @@ File Handling: Allows users to upload multiple images, which are previewed befor
 Form Submission: When the form is submitted, the data is sent to the backend using axios. If the request is successful, a success message is displayed, and the form is reset. If there's an error, an alert is shown.
 Category Options: Provides a set of predefined categories for the product (Electronics, Fashion, Books, and Home Appliances).
 
+## Milestone 11: Fetching and Displaying Product Data
+
+In this milestone, we focused on retrieving product data from the backend and dynamically displaying it in the frontend. Key achievements include:
+
+Backend: Creating an API Endpoint to Fetch All Products Developed a GET endpoint (/api/products) in the backend to send all product data to the frontend. Implemented MongoDB queries using Mongoose to retrieve all stored products. Ensured error handling to manage potential issues in fetching data.
+Frontend: Fetching Data from API Created an API call function using fetch or axios in React to retrieve product data from the backend. Managed the fetched data using React useState and useEffect hooks to ensure dynamic updates.
+Displaying Products Dynamically Passed the fetched product data to a ProductCard component. Used the product details (name, image, price, etc.) as props to display them dynamically. Applied responsive CSS styling to create a visually appealing product grid layout.
