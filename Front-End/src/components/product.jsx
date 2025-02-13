@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function Product({ name, image, description, price }) {
+function Product({ name, image, description, price }) {
     return (
       <div className="bg-neutral-200 p-4 rounded-lg shadow-md flex flex-col justify-between">
         <div className="w-full ">
@@ -20,3 +20,5 @@ export default function Product({ name, image, description, price }) {
       </div>
     );
 }
+
+export default Product
