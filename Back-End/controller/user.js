@@ -1,15 +1,15 @@
 
-const express = require("express");
+  const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const User = require("../Modal/user");
+const User = require("../model/user");
 const router = express.Router();
 const { upload } = require("../multer");
 const ErrorHandler = require("../utility/ErrorHandler");
 const catchAsyncErrors = require("../middleware/catchAsyncError");
 const jwt = require("jsonwebtoken");
 const sendMail = require("./utils/sendmail");
-const sendToken = require("./utils/jwtToken")
+const sendToken = require("./utils/jwtToken");
 const bcrypt = require("bcryptjs");
 require("dotenv").config();
 
