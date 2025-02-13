@@ -47,7 +47,7 @@ const CreateProduct = () => {
         formData.append("tags", tags);
         formData.append("price", price);
         formData.append("stock", stock);
-        formData.append("email", email);
+        formData.append("email", email);    
 
 
         images.forEach((image) => {
